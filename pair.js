@@ -56,7 +56,7 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Venocyber_Tech.sendMessage(Pair_Code_By_Venocyber_Tech.user.id, { text: '' + b64data });
 
                let UNIQUE_MD_TEXT = `
-*_Pair Code Connected by  𝗳𝗲𝗲𝗻𝗶𝘅 mdv5_*
+*_Pair Code Connected by  feenix md_*
 *_Made With 🤍_*
 ______________________________________
 ╔════◇
@@ -70,11 +70,11 @@ ______________________________________
 ║❒ *Repo:* _https://github.com/feenixmd/FEENIX-MD-V5_
 ║❒ *WaGroup:* _https://chat.whatsapp.com/L0RchYxWA8x2Lft8riYxny_
 ║❒ *WaChannel:* https://whatsapp.com/channel/0029VacjymBATRSmfPnnrC2e
-║❒ *𝗙𝗘𝗘𝗡𝗜𝗫 MD V5:* 
+║❒ *𝗙𝗘𝗘𝗡𝗜𝗫 MD:* 
 ╚══════════════════════╝ 
 _____________________________________
 
-_𝗙𝗘𝗘𝗡𝗜𝗫-𝗠𝗗-𝗩5 𝗕𝗢𝗧_
+_𝗙𝗘𝗘𝗡𝗜𝗫 𝗠𝗗_`
  await Pair_Code_By_Venocyber_Tech.sendMessage(Pair_Code_By_Venocyber_Tech.user.id,{text:UNIQUE_MD_TEXT},{quoted:session})
  
 
